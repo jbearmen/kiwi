@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.micro.kiwi.cloud.discovery.KiwiCloudDiscoveryApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.498 sec - in com.micro.kiwi.cloud.discovery.KiwiCloudDiscoveryApplicationTests

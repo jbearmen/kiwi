@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: kiwi-cloud-admin
+Implementation-Version: 0.0.1
+Built-By: jbearmen
+Implementation-Vendor-Id: com.micro.kiwi
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/kiwi/kiwi-cl
+ oud-admin/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,24 @@
+kiwi-cloud-hystrix:
+  image: kiwi/kiwi-cloud-hystrix
+  ports:
+   - "7878:7878"
+  links:
+   - kiwi-cloud-gateway
+   - kiwi-cloud-discovery
+kiwi-cloud-discovery:
+  image: kiwi/kiwi-cloud-discovery
+  ports:
+   - "7878:7878"
+kiwi-cloud-config:
+  image: kiwi/kiwi-cloud-config
+  ports:
+   - "7777:7777"
+  links:
+   - kiwi-cloud-discovery
+kiwi-cloud-gateway:
+  image: kiwi/kiwi-cloud-gateway
+  ports:
+   - "8080:8080"
+  links:
+   - kiwi-cloud-discovery
+   - kiwi-cloud-config
